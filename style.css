@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Varela+Round&display=swap');
+
+body, html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+@media( min-width: 650px ){
+    .about{
+        display: block;
+    }
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #5d14a6;
+    color: #fff;
+}
+
+.header .git-hub{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.header .git-hub h3{
+    margin: 0;
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.logo .name{
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.logo .name h3{
+    margin: 0;
+}
+
+.logo{
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.logo i{
+    font-size: 40px;
+}
+
+.body{
+    padding: 40px;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .image img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-right: 60px;
+}
+
+.about .about-my{
+    width: 600px;
+}
+
+.about .about-my .title{
+    width: 160px;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: solid #5d14a68e 3px;
+    color: #4f118c;
+}
+
+.about .about-my .title h4{
+    padding: 0;
+    margin: 0;
+}
+
+.about .about-my .text{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 28px;
+    margin-top: 25px;
+}
+
+.body .stack{
+    width: 500px;
+    margin: 10px auto;
+}
+
+.body .stack .stack-techs{
+    display: flex;
+    justify-content: center;
+}
+
+.body .stack .stack-techs img{
+    width: 400px;
+}
+
+.body .stack .stack-title{
+    display: flex;
+    justify-content: center;
+    border-bottom: solid rgba(102, 102, 102, 0.6) 3px ;
+}
+
+.body .mail{
+    color: #5d14a6;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.body .mail h3{
+    margin: 0;
+    margin-left: 10px;
+}
